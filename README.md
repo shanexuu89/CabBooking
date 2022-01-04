@@ -1,10 +1,11 @@
 File list:
+index.html
 admin.html
 adminajax.js
 admindata.php
 adminrequest.php
 background.jpg
-booking.html
+
 bookingajax.js
 bookingdata.php
 getrequestajax.js
