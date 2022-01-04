@@ -1,0 +1,15 @@
+CREATE TABLE taxibooking (
+    refno int NOT NULL AUTO_INCREMENT,
+    fname varchar(255) NOT NULL,
+    lname varchar(255) NOT NULL,
+    telno int(100),
+    unit int(100),
+    stno int(100),
+    stname varchar(255),
+    suburb varchar(255),
+    destsub varchar(255),
+    date date,
+    time time,
+    unassigned tinyint(4),
+    PRIMARY KEY (refno)
+);

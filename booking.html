@@ -1,0 +1,42 @@
+<!? file booking.html -->
+<HTML XMLns="http://www.w3.org/1999/xHTML">
+<head>
+    <title>Booking Page</title>
+    <script type="text/javascript" src="bookingajax.js"></script>
+    <link rel="stylesheet" type="text/css" href= "mystyle.css" />
+</head>
+
+<body>
+    <div class="form"><h1>Booking Form</h1></div>
+    <div class="main">
+        <form id="booking-form">
+            <div id="name">
+                <h2 class="name">Name</h2>
+                <label class="firstlable">First Name</label><input class="firstname" type="text" name="fnamefield" required />
+                <label class="lastlable">Last Name </label> <input class="lastname" type="text" name="lnamefield" required />
+            </div>
+            <h2 class="name">Phone Number</h2> <input class="tel" type="text" name="telnumberfield" required />
+            <div id="address">
+                <h2 class="name">Pick-up Address</h2>
+                <label class="unitlable">Unit </label> <input class="unit" type="text" name="unitfield" required />
+                <label class="stnolable">Street Number</label> <input class="stno" type="text" name="stnofield" required />
+                <label class="stnamelable">Street Name</label> <input class="stname" type="text" name="stnamefield" required />
+                <p><label class="sublable">Suburb</label> <input class="suburb" type="text" name="suburbfield" required /></p>
+            </div>
+            <h2 class="name">Destination Suburb</h2>
+            <input class="destsub" type="text" name="destsubfield" required />
+            <div id="time">
+                <h2 class="name">Pick-up Time</h2><br/>
+                <lable class="datelable">Date</lable><input calss="date" type="date" name="datefield" required />
+                <lable class="timelable">Time</lable><input class="time" type="time" name="timefield" required />
+            </div>
+            
+            <input class="button" name="submit" id="book" type="button" onClick="getData('bookingdata.php', 'targetDiv', fnamefield.value, lnamefield.value, telnumberfield.value, unitfield.value, stnofield.value, stnamefield.value, suburbfield.value, destsubfield.value, datefield.value, timefield.value) " value="Book">
+        </form>
+        <div class="target" id="targetDiv">
+        </div>
+    </div>
+    
+</body>
+</HTML>
+

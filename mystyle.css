@@ -1,0 +1,226 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.form {
+    width: 800px;
+    background-color: rgb(0,0,0,0.6);
+    margin: auto;
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.main {
+    background-color: rgb(0,0,0,0.5);
+    width: 800px;
+    margin: auto;
+}
+.target {
+    padding:30px;
+    width: 800px;
+    margin: auto;
+    color: white;
+}
+form {
+    padding: 10px;
+}
+
+#name {
+    width: 100%;
+    height: 100px;
+}
+
+.name {
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 250px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.firstname {
+    position: relative;
+    left: 100px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.lastname {
+    position: relative;
+    left: 100px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+
+.firstlable {
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 170px;
+    top: 0px;
+}
+
+.lastlable {
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 170px;
+    top: 0px;
+}
+
+.tel {
+    position: relative;
+    left: 220px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.unit {
+    position: relative;
+    left: 190px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    width: 90px;
+}
+
+.unitlable {
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 220px;
+    top: 0px;
+}
+
+.stno {
+    position: relative;
+    left: 120px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    width: 90px;
+}
+
+.stnolable {
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 216px;
+    top: 0px;
+}
+
+.stname {
+    position: relative;
+    left: 60px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.stnamelable {
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 144px;
+    top: 0px;
+}
+
+.suburb {
+    position: relative;
+    left: 170px;
+    top: -10px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.sublable {
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 220px;
+    top: 30px;
+}
+
+.destsub {
+    position: relative;
+    left: 220px;
+    top: -20px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.datelable {
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 30px;
+    top: 30px;
+}
+
+.timelable {
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 30px;
+    top: 30px;
+}
+
+.button {
+    background-color: #3baf9f;
+    display: block;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #366473;
+    padding: 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+    position: relative;
+    left: 420px;
+    top:-50px;
+}
+

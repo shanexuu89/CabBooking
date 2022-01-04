@@ -1,0 +1,21 @@
+<!? file admin.html -->
+<HTML XMLns="http://www.w3.org/1999/xHTML">
+<head>
+    <title>Admin Page</title>
+    <script type="text/javascript" src="adminajax.js"></script>
+    <script type="text/javascript" src="getrequestajax.js"></script>
+
+</head>
+<body>
+    <h1>Admin Page</h1>
+    <form>
+        <input name="getrequest" type="button" onclick="showRequest('adminrequest.php','requestDiv')" value="Display Request">
+    </form>
+    <form>
+        <label>Reference number <input type="text" name="refnofield"> </label>
+        <input name="submit" type="button" onClick="showResult('admindata.php','showDiv', refnofield.value) " value="Issue Request">
+    </form>
+    <div id="requestDiv"></div>
+    <div id="showDiv"></div>
+</body>
+</HTML>
